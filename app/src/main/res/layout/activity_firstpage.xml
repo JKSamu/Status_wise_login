@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Firstpage">
+    <Button
+        android:text="Register by post method"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:id="@+id/b_reg_post" />
+
+    <Button
+        android:text="Register by get method"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b_reg_post"
+        android:layout_alignRight="@+id/b_reg_post"
+        android:layout_alignEnd="@+id/b_reg_post"
+        android:layout_marginTop="31dp"
+        android:id="@+id/b_reg_get" />
+
+    <Button
+        android:text="lOGIN USING POST "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b_reg_get"
+        android:layout_alignLeft="@+id/b_reg_get"
+        android:layout_alignStart="@+id/b_reg_get"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="42dp"
+        android:id="@+id/b_loging" />
+
+</RelativeLayout>
